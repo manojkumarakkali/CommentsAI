@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 
 # Initialize OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 # Streamlit page settings
 st.set_page_config(page_title="AI-Powered PL/SQL Comment Generator", layout="centered")
 st.title("AI-Powered PL/SQL Comment Generator")
@@ -46,4 +46,5 @@ if st.button("Generate Comments"):
 
             except Exception as e:
                 st.error(f"Error: {e}")
+
 
